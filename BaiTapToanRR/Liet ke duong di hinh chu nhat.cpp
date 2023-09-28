@@ -1,3 +1,9 @@
+// Đề bài Liệt kê các đường đi từ đỉnh dưới cùng bên trái tới đỉnh trên cùng bên phải của 1 hình chữ nhật kích thước m*n (chỉ được di chuyển sang phải và đi lên)
+// Coi bước di chuyển sang ngang là 0 và đi lên là 1 --> mỗi cách đi được thể hiện bằng 1 chuỗi nhị phân
+// Thuật toán đổi chỗ từng cặp 0 1 và sắp xếp lại các bước đi đằng sau thỏa mãn ưu tiên bước sang ngang trước (sự tăng nhỏ nhất) để sinh ra 1 cặp mới
+// Nháp 01101 ---> 01110 
+// 	01110 ---> 10110 ---> 10011
+
 #include <bits/stdc++.h>
 
 using namespace std;
